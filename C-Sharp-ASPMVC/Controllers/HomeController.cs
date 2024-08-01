@@ -8,23 +8,32 @@ namespace C_Sharp_ASPMVC.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        //public ActionResult Index()
+        //{
+        //    return View();
+        //}
+
+        //public ActionResult About()
+        //{
+        //    ViewBag.Message = "Your application description page.";
+
+        //    return View();
+        //}
+
+        //public ActionResult Contact()
+        //{
+        //    ViewBag.Message = "Your contact page.";
+
+        //    return View();
+        //}
+        
+        public String IndexA()
         {
-            return View();
+            return "進站時間2" + DateTime.Now.ToString();
         }
-
-        public ActionResult About()
+        public String Index()
         {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
+            return "進站時間" + DateTime.Now.ToString();
         }
     }
 }
