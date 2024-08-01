@@ -1,0 +1,80 @@
+# 編譯後的文件
+bin/
+obj/
+
+# 生成的資料夾
+Generated\ Files/
+
+# 資料庫
+App_Data/
+
+# 忽略某些 IDE 的設定檔
+.vs/
+*.suo
+*.user
+*.userosscache
+*.suo
+*.pdb
+*.opendb
+*.psess
+*.vsp
+
+# ReSharper 設定檔
+*.DotSettings
+
+# 包管理器
+packages/
+*.nupkg
+
+# 快取檔案
+*.cache
+*.log
+
+# 圖像文件
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# 臨時檔案
+*.tmp
+*.swp
+*.bak
+*.dmp
+
+# 構建工具的設定檔
+*.csproj.user
+*.suo
+
+# 本地 IIS Express 配置
+.iisexpress/
+
+# Docker 相關檔案
+docker-compose.override.yml
+.dockerignore
+Dockerfile
+
+# 不需要追蹤的目錄
+node_modules/
+bower_components/
+
+# Mac OS X 特有的檔案
+.DS_Store
+
+# Windows 特有的檔案
+Thumbs.db
+Desktop.ini
+
+# 附加的開發工具檔案
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.suo
+*.pdb
+*.opendb
+*.psess
+*.vsp
+*.suo
+*.cache
